@@ -1,15 +1,15 @@
 {
-    "time": 16,
-    "delay": 2,
+    "time": 32,
+    "delay": 1,
     "transpose": -1,
     "voices": [
         {
             "name": "wind I",
-            "beat": 4,
+            "beat": 8,
             "instrument": "flute",
             "sustain": true,
             "notes": [
-                "| 1", "r 2b", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "pling" },
+                "| 1", "r 2b", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 },
                 "| 3", "g_ 2b.", "g 1b 1b", "c", "f 2b 4b",
                 "| 6", "eb 4b 2b", "d", "c",
                 "| 8", "bb_ 2b", "bb 2b 1b", "g", "cs 2b",
@@ -17,13 +17,13 @@
                 "| 12", "b 2b", "b 2b 2b", "a", "g",
                 "| 14", "a 2b", "ab 2b 2b", "g", "fs",
                 "| 16", "g 4b 4b 2b", "fs 2b",
-                "| 19", "g", "r", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "pling" }
+                "| 19", "g", "r", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 }
             ]
         },
 
         {
             "name": "wind II",
-            "beat": 4,
+            "beat": 8,
             "instrument": "flute",
             "sustain": true,
             "notes": [
@@ -46,7 +46,9 @@
 
         {
             "name": "violin I",
-            "instrument": "bit",
+            "instrument": "harp",
+            "beat": 2,
+            "dynamic": 1,
             "notes": [
                 "| 1", "d", "c", "d", "eb", "d", "c", "d", "eb", "d", "c", "d", "eb", "d", "c", "d", "eb",
                 "| 2", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "c", "bb_", "c", "eb",
@@ -73,11 +75,13 @@
 
         {
             "name": "violin II",
-            "instrument": "bit",
+            "instrument": "harp",
+            "beat": 2,
+            "dynamic": 1,
             "notes": [
                 "| 1", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c",
                 "| 2", "a_", "g_", "a_", "bb_", "a_", "g_", "a_", "bb_", "a_", "g_", "a_", "bb_", "a_", "g_", "a_", "bb_",
-                { "sustain": true },
+                { "sustain": -1 },
                 "| 3", "g_", "a_", "g_ 2b 1b", "a_", "g_ 2b 1b", "a_", "bb_", "c", "bb_", "a_", "bb_", "g_",
                 { "sustain": false },
                 "| 4", "eb", "d", "eb", "f", "eb", "d", "eb", "f", "eb", "d", "eb", "f", "eb", "d", "eb", "f",
@@ -103,30 +107,32 @@
 
         {
             "name": "viola",
-            "instrument": "bit",
+            "instrument": "harp",
+            "beat": 2,
+            "dynamic": 1,
             "notes": [
-                { "beat": 2 },
+                { "beat": 4 },
                 "| 1", { "transpose": 12 }, "g_", "d_", "g_", "d_", "g_", "eb_", "g_", "eb_", { "transpose": 0 },
                 "| 2", "eb", "c", "eb", "c", "eb", "c", "eb", "c",
                 "| 3", "g", "d", "g", "d", "g", "d", "g", "d",
                 "| 4", "eb", "c", "eb", "c", "ab", "f", "ab", "f",
-                { "beat": 1 },
+                { "beat": 2 },
                 "| 5", "g_", "a_", "b_", "c", "b_", "a_", "b_", "c", "b_", "a_", "b_", "c", "b_", "a_", "b_", "d",
-                "| 6", { "beat": 2 }, "c", "g_", "c", "g_", "c", "g_", "c", "g_", { "beat": 1 },
+                "| 6", { "beat": 4 }, "c", "g_", "c", "g_", "c", "g_", "c", "g_", { "beat": 2 },
                 "| 7", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "eb 2b", "a_ 2b",
                 "| 8", "d", "c", "d", "eb", "d", "c", "d", "fs", "g", "fs", "g", "a", "g", "fs", "g", "d",
                 "| 9", "g", "f", "g", "a", "bb", "f", "g", "bb", "g", "f", "g", "a", "g", "f", "g", "a",
                 "| 10", "d", "eb", "d", "c", "d", "eb", "d", "c", "d", "e", "fs", "g", "a", "bb", "a", "g",
                 "| 11", "fs", "e", "fs", "g", "fs", "e", "fs", "g", "d", "eb", "f", "g", "f", "eb", "f", "g",
-                { "beat": 2 },
+                { "beat": 4 },
                 "| 12", "ab", "d", "ab", "d", "ab", "d", "ab", "d",
-                "| 13", { "beat": 1 }, "c", "d", "e", "f", "e", "d", "e", "g", { "beat": 2 }, "a", "c", "c^", "eb",
+                "| 13", { "beat": 2 }, "c", "d", "e", "f", "e", "d", "e", "g", { "beat": 4 }, "a", "c", "c^", "eb",
                 "| 14", "f", "c", "f", "c", "f", { "name": "f_", "transpose": 12 }, "f", "eb",
-                "| 15", { "beat": 1 }, "d", "c", "d", "eb", "d", "c", "d", "fs", { "beat": 2 }, "g", "d", "bb", "d",
-                "| 16", "g", "g_", "bb_", "g_", { "beat": 1 }, "eb", "d", "eb", "f", "eb", "d", "eb", "c", { "beat": 2 },
-                "| 17", "g", "d", "g", "d", { "beat": 1 }, "bb", "a", "bb", "a", { "beat": 2 }, "g", "e",
-                { "beat": 1 },
-                "| 18", "a", "g", "a", "bb", { "beat": 2 }, "a", "d", "d^", "a", "fs", "d", { "beat": 1 },
+                "| 15", { "beat": 2 }, "d", "c", "d", "eb", "d", "c", "d", "fs", { "beat": 4 }, "g", "d", "bb", "d",
+                "| 16", "g", "g_", "bb_", "g_", { "beat": 2 }, "eb", "d", "eb", "f", "eb", "d", "eb", "c", { "beat": 4 },
+                "| 17", "g", "d", "g", "d", { "beat": 2 }, "bb", "a", "bb", "a", { "beat": 4 }, "g", "e",
+                { "beat": 2 },
+                "| 18", "a", "g", "a", "bb", { "beat": 4 }, "a", "d", "d^", "a", "fs", "d", { "beat": 2 },
                 "| 19", "d", "c", "d", "eb", "d", "c", "d", "eb", "d", "c", "d", "eb", "d", "c", "d", "eb",
                 "| 20", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "c", "bb_", "c", "d", "c", "bb_", "c", "d"
             ]
@@ -135,7 +141,7 @@
         {
             "name": "continuo",
             "instrument": "bass",
-            "beat": 2,
+            "beat": 4,
             "notes": [
                 "| 1", "g", "g", "g", "g", "g", "g", "g", "g",
                 "| 2", "g", "g", "g", "g", "g", "g", "g", "g",
