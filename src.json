@@ -18,7 +18,7 @@
                 "| 14", "a 2b", "ab 2b 2b", "g", "fs",
                 "| 16", "g 4b",
                 "| 17", { "dynamic": 2 }, "g 4b",
-                "| 18", { "dynamic": 3 }, "g 2b", "fs 2b",
+                "| 18", { "dynamic": 3 }, "g 2b", { "name": "g 2b -2", "trill": "fs 2b -2" }, "eb 1", "fs 1",
                 "| 19", "g", "r", { "dynamic": 2 }, "eb 2b",
                 "| 20", { "dynamic": 1 }, "eb", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 },
                 "| 21", "g_", "g 2b", "fs",
