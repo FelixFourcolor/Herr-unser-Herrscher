@@ -143,7 +143,7 @@
                 "| 29", "bb", "a", "bb", "c^", "bb", "a", "bb", "c^", "d^", "cs^", "d^", "g^", "d^", "cs^", "d^", "g^",
                 "| 30", "cs^", "b", "cs^", "d^", "cs^", "b", "cs^", "d^", "e^", "d^", "e^", "fs^", "e^", "d^", "e^", "fs^",
                 "| 31", { "dynamic": 2 }, "d^", "c^", "d^", "eb^", "c^", "bb", "c^", "d^", "bb", "a", "bb", "c^", "a", "g", "a", "bb",
-                "| 32", "g", "f", "g", "a", "g", "f", "g", "a", "bb", "a", "g", "fs", "e", "d", "e", "g"
+                "| 32", "g", "f", "g", "a", "g", "f", "g", "a", { "dynamic": 1 }, "bb", "a", "g", "fs", "e", "d", "e", "g"
             ]
         },
 
@@ -184,7 +184,7 @@
                 "| 29", "d^", "eb^", "d^", "c^", "d^", "eb^", "d^", "c^", "bb", "a", "bb", "c^", "bb", "a", "bb", "d",
                 "| 30", "e", "d", "e", "f", "g", "f", "g", "a", "bb", "a", "bb", "c^", "bb", "a", "bb", "c^",
                 "| 31", { "dynamic": 2 }, "a", "g", "a", "bb", "a", "g", "a", "bb", "g", "f", "g", "a", "f", "e", "f", "g",
-                "| 32", "e", "d", "e", "f", "e", "d", "e", "f", "g", "fs", "g", "a", "g", "fs", "g", "e"
+                "| 32", { "dynamic": 1 }, "e", "d", "e", "f", "e", "d", "e", "f", "g", "fs", "g", "a", "g", "fs", "g", "e"
 
             ]
         },
@@ -227,7 +227,7 @@
                 "| 28", "c 2b", "eb", "d", { "dynamic": 3 }, { "name": "c 2b", "sustain": true }, "g 2b", "fs", "e", "fs", "g", "fs", "e", "fs", "a",
                 "| 29", "d", "fs", "g", "a", "g", "fs", "g", "a", { "name": "bb 2b", "sustain": true }, "g 2b", { "name": "g 2b", "sustain": true }, "d 2b",
                 "| 30", { "name": "g 2b", "sustain": true }, "bb 2b", "e", "d", "e", "f", "g", "fs", "g", "a", "g", "fs", "g", "a",
-                "| 31", { "dynamic": 2 }, "fs", "e", "fs", "g", { "name": "fs 2b", "sustain": true }, "a_ 2b", "d", "c", "d", "eb", "c", "bb_", "c", "d",
+                "| 31", { "dynamic": 2 }, "fs", "e", "fs", "g", { "name": "fs 2b", "sustain": true }, "a_ 2b", { "dynamic": 1 }, "d", "c", "d", "eb", "c", "bb_", "c", "d",
                 "| 32", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c", { "name": "bb_ 2b", "sustain": true }, "bb 2b", { "name": "bb_ 2b", "sustain": true }, "g_ 2b"
             ]
         },
