@@ -21,15 +21,16 @@
                 "| 18", { "dynamic": 3 }, "g 2b", { "name": "g 2b -2", "trill": "fs 2b -2" }, "eb 1", "fs 1",
                 "| 19", "g", "r", { "dynamic": 2 }, "eb 2b",
                 "| 20", { "dynamic": 1 }, "eb", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 },
-                "| 21", "g_", "g 2b", "fs",
+                "| 21", "g_", "g", { "dynamic": 2 }, "g", "fs",
                 "| 22", "g", "eb 2b", "d 4", "c 4",
-                "| 23", "bb_", { "dynamic": 2 }, "d", { "dynamic": 3 }, "g 2b",
+                "| 23", "bb_", "d", { "dynamic": 3 }, "g 2b",
                 "| 24", { "dynamic": 2 }, "g", "c", { "dynamic": 1 }, "f 2b 2b", "eb 2b",
-                "| 26", "d 2b.", "c",
+                "| 26", { "dynamic": 2 }, "d 2b.", "c",
                 "| 27", "f 2b", "eb 2b",
                 "| 28", "eb 2b", "d", "c",
                 "| 29", "bb_ 2b", "bb 2b 1b", "g", "e 2b",
-                "| 31", "fs", "d", "bb 2b 1b", "g", "cs 2b"
+                "| 31", "fs", "d", "bb 2b",
+                "| 32", { "dynamic": 1 }, "bb 1b", "g", "cs 2b"
             ]
         },
 
@@ -53,14 +54,15 @@
                 "| 18", "a_ 2b", { "dynamic": 3 }, "a_ 2b",
                 "| 19", "bb_", "d", { "dynamic": 2 }, "d", "g_",
                 "| 20", { "dynamic": 1 }, "c 4b 1b", "bb_", "a_ 2b",
-                "| 22", "g_", "g 2b", "fs",
+                "| 22", "g_", "g", { "dynamic": 2 }, "g", "fs",
                 "| 23", "g", "r 2b", { "dynamic": 3 }, "eb",
                 "| 24", { "dynamic": 2 }, "ab 2b", { "dynamic": 1 }, "ab", "f",
                 "| 25", "b_ 2b", "c 2b",
-                "| 26", "c", "b_", "eb 2b 1b", "d 2b", "c",
+                "| 26", "c", "b_", "eb 2b",
+                "| 27", { "dynamic": 2 }, "eb 1b", "d 2b", "c",
                 "| 28", "fs", "g", "a 2b 2b", "g", "f",
                 "| 30", "e 2b", "g", "bb_",
-                "| 31", "a_", "a 2b", "d",
+                "| 31", { "dynamic": 1 }, "a_", "a 2b", "d",
                 "| 32", "g 2b.", { "name": "c", "trill": "bb_" }
             ]
         },
