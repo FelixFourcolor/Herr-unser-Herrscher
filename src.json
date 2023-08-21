@@ -250,6 +250,7 @@
             "name": "viola",
             "instrument": "harp",
             "dynamic": 1,
+            "sustain": -1,
             "notes": [
                 { "beat": 4 },
                 "| 1", { "transpose": 12 }, { "name": "g_", "sustain": true }, "d_", { "name": "g_", "sustain": true }, "d_", { "name": "g_", "sustain": true }, "eb_", { "name": "g_", "sustain": true }, "eb_", { "transpose": 0 },
@@ -285,7 +286,7 @@
                 "| 30", { "name": "g 2b", "sustain": true }, "bb 2b", "e", "d", "e", "f", "g", "fs", "g", "a", "g", "fs", "g", "a",
                 "| 31", { "dynamic": 2 }, "fs", "e", "fs", "g", { "name": "fs 2b", "sustain": true }, "a_ 2b", { "dynamic": 1 }, "d", "c", "d", "eb", "c", "bb_", "c", "d",
                 "| 32", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c", { "name": "bb_ 2b", "sustain": true }, "bb 2b", { "name": "bb_ 2b", "sustain": true }, "g_ 2b",
-                { "beat": 8 },
+                { "beat": 8, "sustain": false },
                 "| 33", { "dynamic": 2 }, "d", "d", "d", "d",
                 "| 34", "a", "a", "d", "a_",
                 "| 35", "g_", "eb", "g", "g",
