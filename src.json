@@ -9,7 +9,7 @@
             "instrument": "flute",
             "sustain": true,
             "notes": [
-                "| 1", { "dynamic": 1 }, "r 2b", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 },
+                "| 1", { "dynamic": 1 }, "r 2b", "eb 2b 1b", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 2 },
                 "| 3", "g_ 2b.", "g 1b 1b", "c", "f 2b 4b",
                 "| 6", "eb 4b 2b", "d", "c",
                 "| 8", "bb_ 2b", "bb 2b 1b", "g", "cs 2b",
@@ -20,7 +20,7 @@
                 "| 17", { "dynamic": 2 }, "g 4b",
                 "| 18", { "dynamic": 3 }, "g 2b", { "name": "g 2b -2", "trill": "fs 2b -2" }, "eb 1", "fs 1",
                 "| 19", "g", "r", { "dynamic": 2 }, "eb 2b",
-                "| 20", { "dynamic": 1 }, "eb", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 3 },
+                "| 20", { "dynamic": 1 }, "eb", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 2 },
                 "| 21", "g_", "g", { "dynamic": 2 }, "g", "fs",
                 "| 22", "g", "eb 2b", "d 4", "c 4",
                 "| 23", "bb_", "d", { "dynamic": 3 }, "g 2b",
@@ -29,8 +29,18 @@
                 "| 27", "f 2b", "eb 2b",
                 "| 28", "eb 2b", "d", "c",
                 "| 29", "bb_ 2b", "bb 2b 1b", "g", "e 2b",
-                "| 31", "fs", "d", "bb 2b",
-                "| 32", { "dynamic": 1 }, "bb 1b", "g", "cs 2b"
+                "| 31", { "dynamic": 1 }, "fs", "d", "bb 2b",
+                "| 32", "bb 1b", "g", "cs 2b",
+                { "sustain": -1 },
+                "| 33", "d", "r 2b", "d",
+                "| 34", "c", "bb_", "a_", "c",
+                "| 35", "bb_", "g", "f", "eb",
+                "| 36", "d", "c", "b_", "d",
+                { "sustain": true },
+                "| 37", "c", "r", "a 2b",
+                "| 38", "a 2b", "g 2b",
+                "| 39", "g 2b", { "dynamic": 2 }, "fs 2b",
+                "| 40", { "dynamic": 3 }, "g", "r"
             ]
         },
 
@@ -61,10 +71,25 @@
                 "| 26", "c", "b_", "eb 2b",
                 "| 27", { "dynamic": 2 }, "eb 1b", "d 2b", "c",
                 "| 28", "fs", "g", "a 2b 2b", "g", "f",
-                "| 30", "e 2b", "g", "bb_",
-                "| 31", { "dynamic": 1 }, "a_", "a 2b", "d",
-                "| 32", "g 2b.", { "name": "c", "trill": "bb_" }
+                "| 30", "e 2b", { "dynamic": 1 }, "g", "bb_",
+                "| 31", "a_", "a 2b", "d",
+                "| 32", "g 2b.", { "name": "c", "trill": "bb_" },
+                { "sustain": -3 },
+                "| 33", "a_", "d", "c", "bb_",
+                "| 34", "a_", "g_", { "name": "fs_", "instrument": "harp", "dynamic": 2 }, "a_",
+                "| 35", "g_", "r 2b", "g",
+                "| 36", "f", "eb", "d", "f",
+                { "sustain": true },
+                "| 37", "eb 4b",
+                "| 38", "d 4b",
+                "| 39", "c 2b", { "dynamic": 2 }, "c 2b",
+                "| 40", { "dynamic": 3 }, "bb_"
             ]
+        },
+
+        {
+            "name": "padding so that the winds sound slightly softer",
+            "notes": [ ]
         },
 
         {
@@ -150,8 +175,8 @@
                 "| 24", { "dynamic": 3 }, "c^", "b", "c^", "d^", "c^", "b", "c^", "d^", { "dynamic": 2 }, "c^", "b", "c^", "d^", "c^", "b", "c^", "eb^",
                 "| 25", { "dynamic": 1 }, "d^", "c^", "d^", "eb^", "d^", "c^", "d^", "eb^", { "dynamic": 2 }, "c^", "b", "c^", "d^", "c^", "b", "c^", "eb^",
                 "| 26", "d^", "c^", "d^", "eb^", "d^", "c^", "d^", "f^", { "dynamic": 3 }, "eb^", "d^", "eb^", "f^", "eb^", "d^", "eb^", "g^",
-                "| 27", "f^", "eb^", "f^", "g^", "f^", "eb^", "f^", { "name": "ab^", "instrument": "flute", "dynamic": 1 }, "g^", "f^", { "dynamic": 2 }, "g^", { "name": "ab^", "instrument": "flute", "dynamic": 1 }, { "dynamic": 4 }, "g^", "fs^", "g^", { "name": "c^^", "instrument": "flute", "dynamic": 2 },
-                "| 28", "fs^", "e^", "fs^", { "name": "a^", "instrument": "flute", "dynamic": 1 }, { "dynamic": 3 }, "c^", "bb", "c^", "eb^", "a", "g", "a", "bb", "a", "g", "a", "fs",
+                "| 27", "f^", "eb^", "f^", "g^", "f^", "eb^", "f^", { "name": "ab^", "instrument": "flute", "dynamic": 2 }, "g^", "f^", { "dynamic": 2 }, "g^", { "name": "ab^", "instrument": "flute", "dynamic": 1 }, { "dynamic": 4 }, "g^", "fs^", "g^", { "name": "c^^", "instrument": "flute", "dynamic": 3 },
+                "| 28", "fs^", "e^", "fs^", { "name": "a^", "instrument": "flute", "dynamic": 2 }, { "dynamic": 3 }, "c^", "bb", "c^", "eb^", "a", "g", "a", "bb", "a", "g", "a", "fs",
                 "| 29", "bb", "a", "bb", "c^", "bb", "a", "bb", "c^", "d^", "cs^", "d^", "g^", "d^", "cs^", "d^", "g^",
                 "| 30", "cs^", "b", "cs^", "d^", "cs^", "b", "cs^", "d^", "e^", "d^", "e^", "fs^", "e^", "d^", "e^", "fs^",
                 "| 31", { "dynamic": 2 }, "d^", "c^", "d^", "eb^", "c^", "bb", "c^", "d^", "bb", "a", "bb", "c^", "a", "g", "a", "bb",
@@ -412,7 +437,7 @@
                 { "beat": 2 },
                 "| 25", { "dynamic": 1 }, "r 4b", "b 2b", "b 2b", "c^", "b", "c^", "d^", "c^", "b", "c^", "eb^",
                 "| 26", { "dynamic": 2 }, "d^", "c^", "d^", "eb^", "d^", "c^", "d^", "f^", "eb^", "d^", "eb^", "f^", "eb^", "d^", "eb^", "g^",
-                "| 27", { "dynamic": 3 }, "f^", "eb^", "f^", "g^", "f^", "eb^", "f^", { "name": "ab^", "instrument": "flute", "dynamic": 1 }, "g^ 2b", { "dynamic": 2 }, "c^ 2b", { "dynamic": 4 }, "c^ 2b", "d^ 2b",
+                "| 27", { "dynamic": 3 }, "f^", "eb^", "f^", "g^", "f^", "eb^", "f^", { "name": "ab^", "instrument": "flute", "dynamic": 2 }, "g^ 2b", { "dynamic": 2 }, "c^ 2b", { "dynamic": 4 }, "c^ 2b", "d^ 2b",
                 "| 28", { "beat": 4 }, { "name": "eb^ 2b", "sustain": true }, { "dynamic": 3 }, "r", "eb^", "d^", "c^", "d^", "a", { "beat": 2 },
                 "| 29", "bb", "a", "bb", "c^", "bb", "a", "bb", "c^", "d^ 2b", "bb", "g", "g^ 2b", "g^ 2b",
                 "| 30", "cs^", "b", "cs^", "d^", "cs^", "b", "cs^", "d^", "e^ 2b", { "dynamic": 2 }, "g 2b", "bb 2b", "a 2b",
