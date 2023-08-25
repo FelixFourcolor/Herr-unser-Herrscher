@@ -29,10 +29,9 @@
                 "| 27", "f 2b", "eb 2b",
                 "| 28", "eb 2b", "d", "c",
                 "| 29", { "dynamic": 1 }, "bb_ 2b", "bb 2b 1b", "g", "e 2b",
-                { "sustain": -1 },
                 "| 31", "fs", "d", "bb 2b 1b",
                 "g", "cs 2b",
-                { "sustain": -3 },
+                { "sustain": -1 },
                 "| 33", "d", "r 2b", "d",
                 "| 34", "c", "bb_", "a_", "c",
                 "| 35", "bb_", "g", "f", "eb",
@@ -45,7 +44,7 @@
                 "| 41", { "dynamic": 1 }, "eb", "c", { "name": "fs_ 2b", "instrument": "harp", "dynamic": 2 },
                 "| 42", "g_", "g", { "dynamic": 2 }, "g", "fs",
                 "| 43", "g", "eb 2b", "d 4", "c 4",
-                "| 44", "bb_", "g", "e", { "dynamic": 1 }, "e",
+                "| 44", "bb_", "g", "f", { "dynamic": 1 }, "f",
                 "| 45", "eb 4b",
                 "| 46", "eb 2b", { "sustain": -1 }, "d", "c",
                 "| 47", "bb_ 2b", { "sustain": true }, "bb 2b 1b",
@@ -59,7 +58,7 @@
                 "| 55", "g 4b",
                 "| 56", "g 2b", { "dynamic": 3 }, "g 2b",
                 "| 57", "g 2b", { "name": "g 2b -2", "trill": "fs 2b -2" }, "eb 1", "fs 1",
-                "| 58", { "delay": 2, "sustain": false, "dynamic": 4 }, "g", "r", { "delay": 1, "sustain": -3, "dynamic": 1 }
+                "| 58", { "delay": 2, "sustain": false, "dynamic": 4 }, "g", "r", { "delay": 1, "sustain": -1, "dynamic": 1 }
             ]
         },
 
@@ -92,10 +91,9 @@
                 "| 27", { "dynamic": 2 }, "eb 1b", "d 2b", "c",
                 "| 28", "fs", "g", { "dynamic": 1 }, "a 2b 2b", "g", "f",
                 "| 30", "e 2b", "g", "bb_",
-                { "sustain": -1 },
                 "| 31", "a_", "a 2b", "d",
                 "| 32", "g 2b.", { "name": "c", "trill": "bb_" },
-                { "sustain": -3 },
+                { "sustain": -1 },
                 "| 33", "a_", "d", "c", "bb_",
                 "| 34", "a_", "g_", { "name": "fs_", "instrument": "harp", "dynamic": 2 }, "a_",
                 "| 35", "g_", "r 2b", "g",
@@ -122,13 +120,8 @@
                 "| 55", "cs 2b", { "dynamic": 2 }, "c 2b",
                 "| 56", "b_ 2b", "bb_ 2b",
                 "| 57", "a_ 2b", { "dynamic": 3 }, "a_ 2b",
-                "| 58", { "delay": 2, "sustain": false, "dynamic": 4 }, "bb_", "r", { "delay": 1, "sustain": -3, "dynamic": 1 }
+                "| 58", { "delay": 2, "sustain": false, "dynamic": 4 }, "bb_", "r", { "delay": 1, "sustain": -1 }
             ]
-        },
-
-        {
-            "name": "padding so that the winds sound slightly softer",
-            "notes": [ ]
         },
 
         {
