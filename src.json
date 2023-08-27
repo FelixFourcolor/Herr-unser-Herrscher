@@ -143,7 +143,7 @@
                 "| 64", "ab_", "c 2b", "d",
                 "| 65", "c", "bb_", "a_", "g_",
                 { "beat": 2 },
-                "| 66", { "instrument": "harp", "dynamic": 2 }, "fs_ 4b", "a_ 2b", "d_ 2b", { "dynamic": 1 }, "g_", "fs_", "g_", "a_", "g_", "fs_", "g_", "a_",
+                "| 66", { "instrument": "harp", "dynamic": 2 }, "fs_ 4b", "a_ 2b", "d_ 2b", { "sustain": false, "dynamic": 1 }, "g_", "fs_", "g_", "a_", "g_", "fs_", "g_", "a_",
                 "| 67", "g_", "fs_", "g_", "a_", "g_", "fs_", "g_", "a_", "g_", "fs_", "g_", "a_", "g_", "fs_", "g_", "a_",
                 { "beat": 8 },
                 "| 68", "bb_", { "instrument": "flute" }, "r 3b",
