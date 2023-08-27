@@ -63,7 +63,7 @@
                 "| 60", "g_", "bb_ 2b", "c",
                 "| 61", "bb_", "ab_", "g_", { "instrument": "harp", "dynamic": 2 }, "f_",
                 "| 62", { "beat": 4 }, "e_ 2b", "g_", "c_", "f_ 2b", "r 2b", { "beat": 8 },
-                "| 63", { "dynamic": 1 }, "r", "f", "eb", "d",
+                "| 63", { "dynamic": 1, "instrument": "flute" }, "r", "f", "eb", "d",
                 "| 64", "c", "eb", "d", "r",
                 "| 65", "r", "d", "c", "bb_",
                 { "beat": 2 },
