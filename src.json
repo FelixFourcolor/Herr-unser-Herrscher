@@ -438,7 +438,7 @@
                 "| 25", { "dynamic": 1 }, "d^", "c^", "d^", "eb^", "d^", "c^", "d^", "eb^", "c^", "b", "c^", "d^", "c^", "b", "c^", "eb^",
                 "| 26", { "dynamic": 2 }, "d^", "c^", "d^", "eb^", "d^", "c^", "d^", "f^", "eb^", "d^", "eb^", "f^", "eb^", "d^", "eb^", "g^",
                 "| 27", { "dynamic": 3 }, "f^", "eb^", "f^", "g^", "f^", "eb^", "f^", { "name": "ab^", "instrument": "flute", "dynamic": 2 }, { "dynamic": 2 }, "g^", "f^", "g^", { "name": "ab^", "instrument": "flute", "dynamic": 1 }, { "dynamic": 4 }, "g^", "fs^", "g^", { "name": "c^^", "instrument": "flute", "dynamic": 3 },
-                "| 28", "fs^", "e^", "fs^", { "name": "a^", "instrument": "flute", "dynamic": 2 }, { "dynamic": 2 }, "c^", "bb", "c^", "eb^", "a", "g", "a", "bb", "a", "g", "a", "fs",
+                "| 28", { "dynamic": 3 }, "fs^", "e^", "fs^", { "name": "a^", "instrument": "flute", "dynamic": 2 }, { "dynamic": 2 }, "c^", "bb", "c^", "eb^", "a", "g", "a", "bb", "a", "g", "a", "fs",
                 "| 29", "bb", "a", "bb", "c^", "bb", "a", "bb", "c^", "d^", "cs^", "d^", "g^", "d^", "cs^", "d^", "g^",
                 "| 30", "cs^", "b", "cs^", "d^", "cs^", "b", "cs^", "d^", "e^", "d^", "e^", "fs^", "e^", "d^", "e^", "fs^",
                 "| 31", "d^", "c^", "d^", "eb^", "c^", "bb", "c^", "d^", "bb", "a", "bb", "c^", "a", "g", "a", "bb",
