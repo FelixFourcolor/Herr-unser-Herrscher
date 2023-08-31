@@ -70,11 +70,11 @@
         "| 68", "bb_", { "instrument": "flute" }, "r 3b",
         "||69",
         "||70",
-        "| 71", { "dynamic": 4, "sustainDynamic": 4, "instrument": "harp", "sustain": true }, "r", "f_", "e_", { "dynamic": 2, "sustainDynamic": null, "instrument": "flute" }, "cs",
+        "| 71", { "dynamic": 4, "instrument": "harp", "sustain": true }, "r", "f_", "e_", { "dynamic": 2, "instrument": "flute" }, "cs",
         "| 72", "d 2b", "c 2b",
-        "| 73", "bb_", { "dynamic": 3 }, "bb_", "a_ 2b",
+        "| 73", "bb_", "bb_", "a_ 2b",
         "| 74", "a_", "g_", "c 2b",
-        "| 75", { "dynamic": 2 }, "bb_ 2b.", "bb_",
+        "| 75", "bb_ 2b.", "bb_",
         "| 76", "a_", "g_", { "name": "f_ 2b", "instrument": "harp", "dynamic": 3 },
         "| 77", "f 2b.", "d",
         "| 78", { "dynamic": 1 }, "b_ 2b", { "sustain": -1 }, "cs", "r",
@@ -87,6 +87,6 @@
         "||84",
         "||85",
         { "beat": 8 },
-        "| 86", { "instrument": "flute", "dynamic": 3, "sustain": true }, "g_ 4b"
+        "| 86", { "instrument": "flute", "sustain": true }, "g_ 4b"
     ]
 }
