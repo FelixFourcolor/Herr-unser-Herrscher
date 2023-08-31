@@ -109,9 +109,9 @@
         "| 91", "f^ 2b", { "name": "f 2b", "dynamic": 3 }, { "name": "f^ 4b 1b", "sustain": -1 }, { "dynamic": 3 }, "e^", "f^", "g^", "f^", "g^", "f^", "e^",
         "| 92", { "name": "d^ 2b", "dynamic": 4 }, "d^ 2b", "r 2b", { "sustain": -1, "sustainDynamic": 3 }, { "name": "d^ 2b", "dynamic": 2, "sustainDynamic": 2 }, { "name": "d^ 2b", "dynamic": 4, "sustainDynamic": 4 }, "fs 2b", "r 2b", { "sustain": false, "sustainDynamic": null }, "a 2b",
         "| 93", "f^", "e^", "f^", "g^", "f^", "e^", "f^", "e^", "d^", "e^", "d^", "cs^", { "name": "d^ 4b 1b", "sustain": -1, "dynamic": 4 },
-        "e^", "f^", "g^", { "name": "a^ 2b", "dynamic": 4, "instrument": "bit" }, "d^ 2b", { "name": "e^ 4b.", "dynamic": 4, "sustain": -3 }, "e^ 2b",
+        "e^", "f^", "g^", { "dynamic": 4 }, { "name": "a^ 2b", "instrument": "bit" }, { "name": "d^ 2b", "dynamic": 3 }, { "name": "e^ 4b.", "sustain": -3 }, { "name": "e^ 2b", "sustain": -1 },
         { "beat": 4 },
-        "| 95", { "name": "fs^ 2b", "dynamic": 4, "sustain": true }, { "name": "fs^ 2b", "dynamic": 1, "sustain": true, "sustainDynamic": 1 }, { "name": "r 4b", "delay": 2 },
+        "| 95", { "name": "fs^ 2b", "sustain": true }, { "name": "fs^ 2b", "dynamic": 1, "sustain": true, "sustainDynamic": 1 }, { "name": "r 4b", "delay": 2 },
         "|"
     ]
 }

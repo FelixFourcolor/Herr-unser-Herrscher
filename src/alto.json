@@ -106,7 +106,7 @@
         { "dynamic": 3 }, "e", "f", "g", "f", "g", "f", "e", "d", "cs", "d", "e", "d", "e", "d", "c",
         "| 92", { "name": "bb_ 2b", "dynamic": 4 }, "g 2b", "r 2b", { "sustain": -1, "sustainDynamic": 3 }, { "name": "d 2b", "dynamic": 2, "sustainDynamic": 2 }, { "name": "fs 2b", "dynamic": 4, "sustainDynamic": 4 }, "a 2b", "r 2b", { "sustain": false, "sustainDynamic": null }, "d 2b",
         "| 93", "d", "cs", "d", "e", "d", "cs", "d", "e", "f", "e", "f", "g", "f", "e", "f", "e",
-        "| 94", "d", "cs", "d", "e", "f", "e", "f", "g", { "dynamic": 4 }, { "name": "a 6b", "sustain": -3 }, { "name": "a 2b", "dynamic": 3 },
+        "| 94", "d", "cs", "d", "e", "f", "e", "f", "g", { "dynamic": 4 }, { "name": "a 6b", "sustain": -3 }, { "name": "a 2b", "sustain": -1 },
         { "beat": 4 },
         "| 95", { "name": "a 2b", "sustain": true }, { "name": "a 2b", "dynamic": 1, "sustainDynamic": 1, "sustain": true }, { "name": "r 4b", "delay": 2 },
         "|"
