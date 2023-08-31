@@ -30,7 +30,7 @@
         "| 26", "b_", "d", "b_", "g_", { "dynamic": 4 }, "c", "d", "eb", "c",
         { "beat": 2 },
         "| 27", { "dynamic": 3 }, "d", "c", "d", "eb", "d", "c", "d", "f", "eb 2b", { "dynamic": 2 }, "c 2b", { "dynamic": 3 }, "c^ 2b", { "dynamic": 4 }, "bb 2b",
-        "| 28", { "beat": 4 }, "a", "bb", { "dynamic": 3 }, "a", "g", "fs", "a", "fs", "d", { "beat": 2 },
+        "| 28", { "beat": 4, "sustain": true }, "a", "bb", { "dynamic": 3 }, "a", { "sustain": false }, "g", "fs", "a", "fs", "d", { "beat": 2 },
         "| 29", "g 2b", "g_ 2b", "bb_ 2b", "d 2b", "g 2b", "g", "a", "bb 2b", "bb", "a",
         "| 30", { "dynamic": 2 }, "g", "a", "g", "f", "e", "f", "e", "d", "cs 2b", "cs 2b", "cs 2b", "cs 2b",
         { "beat": 4 },
