@@ -66,7 +66,7 @@
         { "beat": 8 },
         "| 68", { "sustain": true }, { "name": "bb_", "sustainDynamic": 1 }, "r 3b",
         "||69",
-        "| 70", { "dynamic": 4, "instrument": "harp" }, "r", "f_", "e_", { "dynamic": 2, "instrument": "flute" }, "cs",
+        "| 70", { "dynamic": 4, "sustainDynamic": 3, "instrument": "harp" }, "r", "f_", "e_", { "dynamic": 2, "sustainDynamic": null, "instrument": "flute" }, "cs",
         "| 71", "d", "bb 2b", "a 4", "g 4",
         "| 72", "f 2b", "fs 2b",
         "| 73", "g 2b.", "fs",
@@ -82,6 +82,16 @@
         "| 83", "bb_", "a_", "bb_", "c", "bb_", "a_", "bb_", "c", { "beat": 8, "sustain": true }, { "name": "a_", "sustainDynamic": 1 }, "r",
         "||84",
         "| 85", { "dynamic": 1 }, "d 2b", { "dynamic": 2 }, "d", "d",
-        "| 86", "cs"
+        "| 86", "cs", "b_", "cs 2b",
+        "| 87", "c 4b",
+        "| 88", "b_", "a_", "b_ 2b",
+        "| 89", "bb_ 4b",
+        "| 90", "a_", "g_", "a_ 2b",
+        "| 91", "a_ 2b", "gs_ 2b",
+        "| 92", "g_ 2b", { "instrument": "harp", "dynamic": 3, "sustainDynamic": 2 }, "fs_ 2b",
+        "| 93", "f_ 2b", { "instrument": "flute", "dynamic": 2, "sustainDynamic": null }, "f 2b",
+        "| 94", { "dynamic": 3 }, "f 2b", "e", { "dynamic": 2 }, "e",
+        "| 95", "d 2b", { "name": "r 2b", "delay": 2 },
+        "|"
     ]
 }
