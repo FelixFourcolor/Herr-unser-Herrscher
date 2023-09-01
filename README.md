@@ -1,6 +1,8 @@
 # Herr, unser Herrscher
 "Herr, unser Herrscher" in Bach's St. John Passion, arranged for Minecraft's noteblocks.
 
+Recording: https://www.youtube.com/watch?v=pvM6F4RrCoU
+
 ## Arrangement
 Tuning: A = 415 Hz (effectively equivalent to transposing down one semitone). 
 
