@@ -104,7 +104,7 @@
         { "dynamic": 3 }, "f", "g", "a", "g", "a", "g", "f", "e", "d", "e", "f", "e", "f", "e", "d",
         "| 90", { "dynamic": 4 }, "c 2b", { "name": "c 2b", "dynamic": 3 }, "eb 2b", "c 2b", "f 2b", { "name": "f_ 2b", "dynamic": 3, "instrument": "guitar" }, { "name": "f 4b 1b", "sustain": -1 },
         { "dynamic": 3 }, "e", "f", "g", "f", "g", "f", "e", "d", "cs", "d", "e", "d", "e", "d", "c",
-        "| 92", { "name": "bb_ 2b", "dynamic": 4 }, "g 2b", "r 2b", { "sustain": -1, "sustainDynamic": 3 }, { "name": "d 2b", "dynamic": 2, "sustainDynamic": 2 }, { "name": "fs 2b", "dynamic": 4, "sustainDynamic": 4 }, "a 2b", "r 2b", { "sustain": false, "sustainDynamic": null }, "d 2b",
+        "| 92", { "name": "bb_ 2b", "dynamic": 4 }, "g 2b", "r 2b", { "sustain": -1, "sustainDynamic": 3 }, "d 2b", { "name": "fs 2b", "dynamic": 4, "sustainDynamic": 4 }, "a 2b", "r 2b", { "sustain": false, "sustainDynamic": null }, "d 2b",
         "| 93", "d", "cs", "d", "e", "d", "cs", "d", "e", "f", "e", "f", "g", "f", "e", "f", "e",
         "| 94", "d", "cs", "d", "e", "f", "e", "f", "g", { "dynamic": 4 }, { "name": "a 6b", "sustain": -3 }, { "name": "a 2b", "sustain": -1 },
         { "beat": 4 },
