@@ -93,10 +93,23 @@
         "| 80", "cs", "cs", "d", "d",
         "| 81", "fs", "g", "fs", "bb",
         "| 82", "a", "fs", "d", "d^",
-        "| 83", "bb", "g", "a", "a_",
+        "| 83", "bb", "g", "a", "a_", { "sustain": -1 },
         { "beat": 2 },
         "| 84", { "dynamic": 1, "instrument": "guitar" }, "f_", "e_", "f_", "g_", "f_", "e_", "f_", "g_", "f_", "e_", "f_", "g_", "f_", "e_", "f_", "g_",
         "| 85", "f_", "e_", "f_", "g_", "f_", "e_", "f_", "g_", { "dynamic": 2 }, "f_", "e_", "f_", "g_", "f_", "d_", "e_", "f_", { "instrument": "harp" },
-        "| 86", { "dynamic": 3 }, { "name": "e_ 2b", "instrument": "guitar", "dynamic": 4 }, "e", "d"
+        "| 86", { "dynamic": 3 }, { "name": "e_ 2b", "instrument": "guitar" }, "e", "d", "e", "f", "e", "d", "cs", "d", "cs", "b_", "cs", "b_", "cs", "d",
+        "| 87", "a_", "d", "c", "bb_", "c", "bb_", "c", "d", { "name": "eb 2b", "sustain": true }, "a_ 2b", { "name": "d 2b", "sustain": true }, "a_ 2b",
+        { "beat": 4 },
+        "| 88", { "name": "f", "sustain": true }, "d", { "name": "a_", "sustain": true }, { "name": "f_", "instrument": "guitar" }, { "name": "g_", "sustain": true }, "b_", { "name": "g_", "sustain": true }, "b_",
+        "| 89", { "name": "e", "sustain": true }, "g", { "name": "g", "sustain": true }, "bb_", { "name": "c", "sustain": true }, "g_", { "name": "g_", "sustain": true }, "c",
+        "| 90", { "name": "eb", "sustain": true }, "c", { "name": "g_", "sustain": true }, "eb", { "name": "a_", "sustain": true }, "a", { "name": "a", "sustain": true }, "f",
+        "| 91", { "name": "f", "sustain": true }, "d", { "name": "a_", "sustain": true }, "a", { "name": "b", "sustain": true }, "d", { "name": "f_", "sustain": true, "instrument": "guitar" }, { "name": "d_", "instrument": "guitar" },
+        { "beat": 2 },
+        "| 92", "d", "a_", "bb_", "c", "bb_", "a_", "bb_", "d", { "dynamic": 4 }, "fs", "e", "fs", "g", { "dynamic": 3 }, "fs", "e", "d", "e",
+        "| 93", { "dynamic": 4 }, "f", "e", "f", "g", "f", "e", "f", "e", { "name": "d 2b", "sustain": true }, "b_ 2b", "b_ 2b", "b_ 2b",
+        "| 94", "a_", "e", "f", "g", { "dynamic": 3 }, "a", "g", "a 2b 2b", "cs 2b", { "name": "cs 2b", "sustain": true }, "a_ 2b",
+        { "beat": 4 },
+        "| 95", { "dynamic": 2, "sustainDynamic": 2, "sustain": true }, "a_ 4b", { "name": "r 4b", "delay": 2 }, { "dynamic": 1, "sustainDynamic": null, "sustain": -1 },
+        "|"
     ]
 }

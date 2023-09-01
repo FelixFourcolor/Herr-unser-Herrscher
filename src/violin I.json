@@ -95,6 +95,16 @@
         { "beat": 2 },
         "| 84", { "dynamic": 1 }, "d", "cs", "d", "e", "d", "cs", "d", "e", "d", "cs", "d", "e", "d", "cs", "d", "e",
         "| 85", "d", "cs", "d", "e", "d", "cs", "d", "e", { "dynamic": 2 }, "d", "cs", "d", "e", "d", "f", "e", "d",
-        "| 86", { "dynamic": 3 }, "a", "g", "a", "b"
+        "| 86", { "dynamic": 3 }, "a", "g", "a", "b", "g", "f", "g", "bb", "a", "bb", "a", "g", "a", "g", "a", "bb",
+        "| 87", "a", "g", "a", "bb", "a", "g", "a", "bb", "a", "bb", "a", "g", "a", "eb", "d", "c",
+        "| 88", "d", "c", "d", "e", "f", "e", "f", "a", "g", "a", "g", "f", "g", "f", "g", "a",
+        "| 89", "bb", "c^", "bb", "a", "g", "f", "g", "a", "g", "f", "g", "a", "g", "a", "g", "f",
+        "| 90", "eb", "d", "c", "d", "eb", "d", "eb", "g", "f", "g", "f", "eb", "f", "eb", "f", "g",
+        "| 91", "a", "g", "a", "bb", "a", "bb", "a", "g", "f", "e", "f", "g", "f", "e", "f", "g",
+        "| 92", { "dynamic": 4 }, "e", "d", "e", "f", "e", "d", "e", "g", "a", "g", "a", "bb", { "dynamic": 3 }, "a", "g", "a", "c^",
+        "| 93", "b", "a", "b", "cs^", "b", "a", "b", "cs^", "d^", "cs^", "d^", "e^", "d^", "cs^", "d^", "e^",
+        "| 94", { "dynamic": 4 }, "f^", "g^", "f^", "e^", "d^", "cs^", "d^", "e^", "a", "g", "a", "bb", { "dynamic": 3 }, "g", "fs", "g", "a",
+        "| 95", { "dynamic": 2, "sustainDynamic": 2, "sustain": true }, "fs 8b", { "name": "r 8b", "delay": 2 }, { "dynamic": 1, "sustainDynamic": null, "sustain": false },
+        "|"
     ]
 }
