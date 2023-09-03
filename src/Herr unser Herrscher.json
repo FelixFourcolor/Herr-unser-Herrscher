@@ -1,0 +1,17 @@
+{
+    "time": 32,
+    "delay": 1,
+    "transpose": -1,
+    "voices": [
+        "winds/wind I.json",
+        "winds/wind II.json",
+        "strings/bass.json",
+        "strings/viola.json",
+        "strings/violin II.json",
+        "strings/violin I.json",
+        "voices/bass.json",
+        "voices/tenor.json",
+        "voices/alto.json",
+        "voices/soprano.json"
+    ]
+}
