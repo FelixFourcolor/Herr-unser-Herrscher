@@ -4,16 +4,16 @@
 Recording: https://www.youtube.com/watch?v=pvM6F4RrCoU
 
 ## Arrangement
-Tuning: A = 415 Hz (effectively equivalent to transposing down one semitone). 
-
 Instrumentation:
 * Soprano: bit
 * Alto: bit
 * Tenor: guitar
 * Bass: guitar
-* Violin, viola: harp
 * Woodwind: flute
+* Violin, viola: harp
 * Continuo: bass
+
+Tranposed down one semitone to better fit noteblock's ranges (or you can argue it's baroque tuning, effectively the same thing). However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
 
 ## Play requirement
 Minecraft java 1.18+
