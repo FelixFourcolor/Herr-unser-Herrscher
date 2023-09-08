@@ -19,7 +19,7 @@ Tranposed down one semitone to better fit noteblock's ranges (or you can argue i
 Minecraft java 1.18+
 
 ## Easy install 
-Copy the `World` folder into your saves.
+Copy the [World](https://github.com/FelixFourcolor/Herr-unser-Herrscher/tree/master/World) folder into your saves.
 
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
@@ -29,7 +29,7 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 * pip
 
 ### Overview of the build process
-The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes `src` which define the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [src](https://github.com/FelixFourcolor/Herr-unser-Herrscher/tree/master/src) which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
@@ -39,7 +39,7 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
-2. Obtain `src`. You may clone the repo or download just that folder.
+2. Obtain [src](https://github.com/FelixFourcolor/Herr-unser-Herrscher/tree/master/src). You may clone the repo or download just that folder.
 
 3. Obtain a world in Minecraft java 1.18+. You may use your existing world or create a new one. 
 
