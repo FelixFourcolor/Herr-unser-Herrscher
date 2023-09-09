@@ -9,8 +9,9 @@ Instrumentation:
 * Alto: bit
 * Tenor: guitar
 * Bass: guitar
-* Woodwind: flute
-* Violin, viola: harp
+* Flute I & II: flute
+* Oboe I & II (double flute I & II) are omitted
+* Violin I & II, viola: harp
 * Continuo: bass
 
 Tranposed down one semitone to better fit noteblock's ranges (or you can argue it's baroque tuning, effectively the same thing). However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
