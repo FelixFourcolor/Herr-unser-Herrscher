@@ -52,4 +52,4 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)
 
 ## License
-Do whatever you want.
+This project, including the uploaded YouTube video, is given to the public domain. No rights reserved.
